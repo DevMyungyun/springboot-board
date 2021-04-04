@@ -19,7 +19,5 @@ RUN locale-gen ko_KR.UTF-8
 ENV LANG ko_KR.UTF-8
 ENV LC_ALL ko_KR.UTF-8
 
-RUN mkdir /root/workspace
 WORKDIR /root/workspace
-
 RUN git clone https://github.com/myungyun/springboot-demo.git
